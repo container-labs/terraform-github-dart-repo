@@ -1,6 +1,6 @@
 module "devenv" {
   source                 = "container-labs/devenv-repo/github"
-  version                = "~> 1.3"
+  version                = "~> 1.5"
   repository             = var.repository
   workspace_image        = "dart"
   workspace_image_tag    = var.workspace_image_tag
